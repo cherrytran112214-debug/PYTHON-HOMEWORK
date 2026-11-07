@@ -1,0 +1,15 @@
+homework_time =int(input("Enter your homework time in minutes"))
+if homework_time > 60:
+  print("That is a long homework session!")
+else:
+  print("That is a short homework session!")
+free_time = input("Do you have free time after homework? (yes/no)")
+if free_time == "yes":
+  plan = "Finish your homework then pick an activity to do"
+  print("Reiminder: Don't forget to pick an activity!")
+else:
+  plan = "Finish your homework then read a book"
+print("==========DAILY ACTIVITY PLANNER===========")
+print("Homework minutes: ", homework_time)
+print("Free time: ",free_time)
+print("Plan:", plan)
